@@ -15,9 +15,9 @@ jobs:
 
       - name: Calculate Age
         run: |
-          BIRTH_YEAR=2000  # Replace with your birth year
-          BIRTH_MONTH=5     # Replace with your birth month
-          BIRTH_DAY=15      # Replace with your birth day
+          BIRTH_YEAR=2002  # Replace with your birth year
+          BIRTH_MONTH=8     # Replace with your birth month
+          BIRTH_DAY=6      # Replace with your birth day
           TODAY=$(date +%Y-%m-%d)
           BIRTHDATE=$(date -d "$BIRTH_YEAR-$BIRTH_MONTH-$BIRTH_DAY" +%Y-%m-%d)
           AGE=$(( $(date -d "$TODAY" +%Y) - $(date -d "$BIRTHDATE" +%Y) ))
