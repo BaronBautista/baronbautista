@@ -1,6 +1,6 @@
 # About Me:
 ### 👨‍🦱 Baron Bautista
-### 📆 22y/o {{AGE}}
+### 📆 {{AGE}}
 ### 💻 Full Stack Developer
 ---
 
